@@ -1,7 +1,7 @@
 ﻿
 namespace Bebela_Modas
 {
-    partial class Form1
+    partial class AppCDC
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,10 +29,18 @@ namespace Bebela_Modas
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // AppCDC
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(832, 450);
+            this.Name = "AppCDC";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
