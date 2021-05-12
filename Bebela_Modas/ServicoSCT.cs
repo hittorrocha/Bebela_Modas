@@ -77,17 +77,17 @@ namespace Bebela_Modas
 
             try
             {
-                var referencial = cliente.Referencial;
+               // var referencial = cliente.Referencial;
                 var nome = cliente.Nome;
                 var telefone = cliente.Telefone;
                 var email = cliente.Email;
                 var data = cliente.Data;
 
-                var query = "Insert into Cliente (Referencial,Produto,Quantidade,Valor,Situacao,Data_Compra) values ('" + @referencial + "','" + @nome + "','" + @telefone + "','" + @email + "','" + @data + "')";
+                var query = "Insert into Cliente (Nome,Telefone,Email,Data_Cadastro) values ('" + @nome + "','" + @telefone + "','" + @email + "','" + @data + "')";
 
                 SqlCommand consulta = new SqlCommand(query, conexaoBanco);
 
-                consulta.Parameters.Add(new SqlParameter("@referencial", referencial));
+                //consulta.Parameters.Add(new SqlParameter("@referencial", referencial));
                 consulta.Parameters.Add(new SqlParameter("@nome", nome));
                 consulta.Parameters.Add(new SqlParameter("@telefone", telefone));
                 consulta.Parameters.Add(new SqlParameter("@email", email));
@@ -247,7 +247,7 @@ namespace Bebela_Modas
             //var nomes = nome;
             //var referencials = referencial;
 
-            var query = "select Referencial,Nome from Cliente";
+            var query = "select * from Cliente";
 
             SqlCommand consulta = new SqlCommand(query, conexaoBanco);
 

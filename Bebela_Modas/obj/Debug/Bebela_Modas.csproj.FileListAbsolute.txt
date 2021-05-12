@@ -38,3 +38,4 @@ D:\Arquivos\Projetos\Bebela_Modas\Bebela_Modas\obj\Debug\Bebela_Modas.csproj.Cor
 D:\Arquivos\Projetos\Bebela_Modas\Bebela_Modas\obj\Debug\Bebela_Modas.csproj.CopyComplete
 D:\Arquivos\Projetos\Bebela_Modas\Bebela_Modas\obj\Debug\Bebela_Modas.exe
 D:\Arquivos\Projetos\Bebela_Modas\Bebela_Modas\obj\Debug\Bebela_Modas.pdb
+D:\Arquivos\Projetos\Bebela_Modas\Bebela_Modas\obj\Debug\Bebela_Modas.CadastroCliente.resources
